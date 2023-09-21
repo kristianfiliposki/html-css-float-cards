@@ -1,10 +1,12 @@
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 
-h1{
+header>h1{
     color:#E53170;
-    font-size: 2em;
+    font-size:2em;
+    margin: 20px;
 }
 
 #container{
@@ -12,7 +14,6 @@ h1{
     height: 700px;
     margin: auto;
     margin-top: 30px;
-    background-color: blueviolet;
 }
 
 header{
@@ -21,7 +22,6 @@ header{
     text-align: center;
     padding:10px;
     margin: auto;
-    background-color:grey;
 
 }
 
@@ -36,22 +36,40 @@ main{
     width: calc(100% / 3);
     float: left;
     height: 90%;
-    background-color: yellowgreen;
-
 }
 
 
 .profili{
-    height: 80px;
-    width: 250px;
+    height: 90px;
+    width: 270px;
     background-color:black;
     margin:auto;
     margin-top:50px;
+    color: white;
 }
 
 div>img{
     width:80px;
     height:80px;
     float: left;
+}
+
+.nomi{
+ font-size: 1em;
+}
+
+.dati{
+    height: 80px;
+    text-decoration: none;
+}
+
+.mail{
+    text-decoration: none;
+    color: aqua;
+}
+
+.info{
+    height: calc(100% / 3);
+    font-size: 15px;
 }
 
